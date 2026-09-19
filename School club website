@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Student Clubs</title>
+
+  <!-- STEP 1 - Bootstrap CSS Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- STEP 2 - Custom CSS Styling -->
+  <style>
+    body {
+      background-color: #f0f4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 15px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-weight: 700;
+      margin-bottom: 35px;
+    }
+
+    .club-card {
+      text-align: center;
+      border: 2px solid #3498db;
+      border-radius: 12px;
+      padding: 25px 20px;
+      margin-bottom: 25px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .club-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .club-card h3 {
+      color: #2980b9;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .club-card p {
+      color: #555555;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Campus Student Clubs</h1>
+
+  <!-- STEP 3 - Bootstrap Container -->
+  <div class="container">
+
+    <!-- STEP 4 - Bootstrap Row -->
+    <div class="row">
+
+      <!-- STEP 5 - Responsive Column 1: Web Tech Club -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="club-card">
+          <h3>Web Tech Club</h3>
+          <p>We build interactive web pages, explore web design principles, and create modern web apps using modern frameworks.</p>
+        </div>
+      </div>
+
+      <!-- Responsive Column 2: Robotics & Physics Club -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="club-card">
+          <h3>Robotics & Physics</h3>
+          <p>We construct automated gadgets, run physical science experiments, and program microcontrollers to solve challenges.</p>
+        </div>
+      </div>
+
+      <!-- Responsive Column 3: Creative Arts Club -->
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="club-card">
+          <h3>Creative Arts</h3>
+          <p>We practice digital illustration, master canvas painting, and showcase our creative designs at campus exhibitions.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- STEP 6 - Bootstrap JS Script -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
