@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventure Park Challenge</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #1a1c2e;
+      color: #e0e6ed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #ff7675;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: #74b9ff;
+      margin-top: 35px;
+    }
+
+    h3 {
+      color: #ffffff;
+    }
+
+    small {
+      color: #a4b0be;
+    }
+
+    dl {
+      text-align: left;
+      display: inline-block;
+    }
+
+    dt {
+      color: #fdcb6e;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    dd {
+      color: #dcdde1;
+    }
+
+    mark {
+      background-color: #fdcb6e;
+      color: #2d3436;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    code {
+      background-color: #0f111a;
+      color: #00ffc4;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    abbr {
+      color: #ff7675;
+      font-weight: bold;
+      cursor: help;
+    }
+
+    pre {
+      background-color: #0f111a;
+      color: #00ffc4;
+      padding: 18px;
+      border-radius: 8px;
+      display: inline-block;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    blockquote {
+      border-left: 4px solid #ff7675;
+      padding-left: 15px;
+      color: #b2bec3;
+      font-style: italic;
+      display: inline-block;
+      text-align: left;
+    }
+
+    hr {
+      border-color: #2f3542;
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Title & Intro -->
+  <h1>Welcome to Adventure Park Challenge!</h1>
+  <p>Gear up for thrilling rides, interactive safety missions, and hands-on typography challenges.</p>
+  <hr>
+
+  <!-- Display Headings -->
+  <h2>Adventure Levels</h2>
+  <p class="display-1">Apex Climber</p>
+  <p class="display-2">Velocity Flyer</p>
+  <p class="display-3">Wilderness Scout</p>
+  <p class="display-4">Rookie Navigator</p>
+  <hr>
+
+  <!-- Small Text inside Headings -->
+  <h2>Visitor Passes</h2>
+  <h3>Liam <small>Pass: Apex Climber</small></h3>
+  <h3>Sophia <small>Pass: Velocity Flyer</small></h3>
+  <h3>Ethan <small>Pass: Wilderness Scout</small></h3>
+  <hr>
+
+  <!-- Description List -->
+  <h2>Ride Dictionary</h2>
+  <dl>
+    <dt>Thunder Loop</dt>
+    <dd>A high-speed roller coaster featuring twin vertical loops and a sudden free fall.</dd>
+    
+    <dt>Shadow Canyon</dt>
+    <dd>An immersive dark ride where riders navigate a mystical cavern system.</dd>
+    
+    <dt>Rapid Rapids</dt>
+    <dd>A wild white-water rafting attraction guaranteed to soak all passengers.</dd>
+  </dl>
+  <hr>
+
+  <!-- Mark Tags for Safety -->
+  <h2>Safety Mission</h2>
+  <p>All participants must gather at <mark>Checkpoint Delta</mark> prior to starting the trial.</p>
+  <p>In case of emergency, medical teams are stationed at <mark>Sector 7</mark>.</p>
+  <hr>
+
+  <!-- Code Commands -->
+  <h2>Ride Commands</h2>
+  <p>Launch the coaster: <code>coaster.launch("Thunder Loop")</code></p>
+  <p>Engage canyon lights: <code>lighting.setMode("Shadow Canyon", "Dark")</code></p>
+  <p>Emergency stop water pumps: <code>pumps.emergencyStop("Rapid Rapids")</code></p>
+  <hr>
+
+  <!-- Abbreviations with Titles -->
+  <h2>Park Short Forms</h2>
+  <p><abbr title="Park Emergency Response Team">PERT</abbr> monitors all high-risk attractions continuously.</p>
+  <p><abbr title="Guest Services & Assistance">GSA</abbr> helps families locate lost items and passes.</p>
+  <p><abbr title="Extreme Sports Association">ESA</abbr> certifies our park challenge guides yearly.</p>
+  <hr>
+
+  <!-- Preformatted Schedule -->
+  <h2>Daily Challenge Schedule</h2>
+  <pre>
+09:30 AM  -  Main Gate Check-In
+10:30 AM  -  Thunder Loop Trial
+01:00 PM  -  Shadow Canyon Quest
+03:30 PM  -  Rapid Rapids Challenge
+05:00 PM  -  Awards & Badge Ceremony
+  </pre>
+  <hr>
+
+  <!-- Blockquote -->
+  <h2>Adventure Quote</h2>
+  <blockquote class="blockquote">
+    <p>"Courage isn't the absence of fear, but the triumph over it on every ride."</p>
+    <footer class="blockquote-footer">Adventure Park Safety Crew</footer>
+  </blockquote>
+
+</body>
+</html>
+
